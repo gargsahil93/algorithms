@@ -14,6 +14,9 @@ public class HelloWorld {
 //        BubbleSort bubble = new BubbleSort();
 //        bubble.sort(new int[]{10,9,8,7,6,5,4,3,2,1});
 
+        SelectionSort selection = new SelectionSort();
+        selection.sort(new int[]{10,9,8,7,6,5,4,3,2,1});
+
 
         System.exit( 0 ); //success
     }
