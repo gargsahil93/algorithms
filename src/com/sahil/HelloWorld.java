@@ -14,9 +14,16 @@ public class HelloWorld {
 //        BubbleSort bubble = new BubbleSort();
 //        bubble.sort(new int[]{10,9,8,7,6,5,4,3,2,1});
 
-        SelectionSort selection = new SelectionSort();
-        selection.sort(new int[]{10,9,8,7,6,5,4,3,2,1});
+//        SelectionSort selection = new SelectionSort();
+//        selection.sort(new int[]{10,9,8,7,6,5,4,3,2,1});
 
+//        InsertionSort insertion = new InsertionSort();
+//        insertion.sort(new int[]{10,9,8,7,6,5,4,3,2,1});
+
+        OversizedPancakeFiller o = new OversizedPancakeFiller();
+        String s = "---+-++-";
+        int j = o.magic(s, 3);
+        int i = o.doable(new StringBuilder(s), 3);
 
         System.exit( 0 ); //success
     }
