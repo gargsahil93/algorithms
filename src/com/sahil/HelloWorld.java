@@ -20,10 +20,13 @@ public class HelloWorld {
 //        InsertionSort insertion = new InsertionSort();
 //        insertion.sort(new int[]{10,9,8,7,6,5,4,3,2,1});
 
-        OversizedPancakeFiller o = new OversizedPancakeFiller();
-        String s = "---+-++-";
-        int j = o.magic(s, 3);
-        int i = o.doable(new StringBuilder(s), 3);
+//        OversizedPancakeFiller o = new OversizedPancakeFiller();
+//        String s = "---+-++-";
+//        int j = o.magic(s, 3);
+//        int i = o.doable(new StringBuilder(s), 3);
+
+        TidyNumbers tidy = new TidyNumbers();
+        tidy.findTidy(1042);
 
         System.exit( 0 ); //success
     }
