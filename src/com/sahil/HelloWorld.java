@@ -25,8 +25,11 @@ public class HelloWorld {
 //        int j = o.magic(s, 3);
 //        int i = o.doable(new StringBuilder(s), 3);
 
-        TidyNumbers tidy = new TidyNumbers();
-        tidy.findTidy(1042);
+//        TidyNumbers tidy = new TidyNumbers();
+//        tidy.findTidy(1042);
+
+        BathroomStalls stall = new BathroomStalls();
+        stall.magic(500, 249);
 
         System.exit( 0 ); //success
     }
